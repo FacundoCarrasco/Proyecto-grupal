@@ -56,7 +56,8 @@ menu li a:hover {
 menu li a img {
     max-height: 100%;
 }
-.formulario{
+
+.formulario {
     width: 400px;
     font-family: sans-serif;
     border: 5px solid gray;
@@ -66,7 +67,8 @@ menu li a img {
     font-size: large;
     border-radius: 4px;
 }
-.Datos{
+
+.Datos {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
@@ -74,17 +76,30 @@ menu li a img {
     border: 1px;
     font-size: 18px;
 }
-.boton{
+
+.boton {
     width: 100%;
     border: none;
     padding: 12px;
     margin: 16px 0;
     font-size: 16px;
 }
-.imgformulario img{
+
+.imgformulario img {
     height: 80px;
 }
-.imgformulario{
+
+.imgformulario {
     left: 70%;
     position: relative;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 0vh;
+    width: 100%;
 }
