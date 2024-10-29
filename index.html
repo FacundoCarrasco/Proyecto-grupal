@@ -17,6 +17,34 @@
             </menu>
         </nav>
     </header>
+        <div class="formulario">
+            <div class="Datos">
+                <form action="/sumit" method="POST">
+                <label for="nomyape">Nombre Y Apellido</label><br>
+                <input type="text" id="nomyape" name="nobreyapellido"  size="30" required><br>
 
+                <label for="emai">Email</label><br>
+                <input type="email" id="emai" name="email" size="30" required><br>
+
+                <label for="tele">Telefono:</label><br>
+                <input type="tel" id="tele" name="telefono" maxlength="10" size="30" required><br>
+                <label>
+                    <input type="checkbox" name="terminos" required>
+                    Terminos
+                </label>
+                <label><br>
+
+                    <input type="checkbox" name="notificar">
+                    Notificar
+                </label><br>
+                <div class="boton">
+                    <button type="submit">Enviar</button>
+                </div>
+                </form>
+            </div>
+            <div class="imgformulario">
+                <img src="img\liquimoli logo.png" alt="Logo">
+            </div>
+        </div>
 </body>
 </html>
